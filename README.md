@@ -11,11 +11,11 @@ This is a proof-of-concept project to explore the integration of Retrieval-Augme
 ## 🚀 Tentative Technologies
 
 - Python
-- LangChain / LangGraph
-- FAISS / Chroma
-- HuggingFace Transformers
+- LangChain
+- Chroma
+- Ollama
 - FastAPI (for the web prototype)
-- Docker (to simplify environment setup)
+- Docker (to simplify environment setup) - PENDING
 
 ## 📁 Project Structure
 
@@ -26,10 +26,15 @@ rag-opensource-poc/
 ├── notebooks/          # Experiments and exploratory code
 ├── tests/
 ├── src/                # Source code
-│   ├── retriever/
-│   ├── rag/
-│   └── api/
+│   ├── llm/            # Código para interacción con LLMs
+│   ├── retriever/      # Implementación del pipeline de recuperación
+│   ├── routers/
+│   └── main.py           
+├── .env                      # API keys y variables de entorno (NO subir a Git)
+├── .gitignore     
+├── README.md
 └── requirements.txt
+
 ```
 
 ## 🧠 Current Status

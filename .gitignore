@@ -1,0 +1,58 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode config
+.vscode/
+
+# Mac & Linux system files
+.DS_Store
+*.swp
+*.swo
+
+# Python dot files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+
+# dotenv and config
+.env
+.env.*
+
+# ChromaDB local storage
+chroma/
+
+# Cache and pip
+.cache/
+pip-wheel-metadata/
+*.egg-info/
+build/
+dist/
+
+# Pytest and test output
+htmlcov/
+.tox/
+.coverage
+.pytest_cache/
+nosetests.xml
+coverage.xml
+test-results/
+
+# MyPy, Pyright, Ruff
+.mypy_cache/
+.pyright/
+ruff_cache/
